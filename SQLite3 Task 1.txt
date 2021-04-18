@@ -1,0 +1,12 @@
+ALTER TABLE top_half ADD species TEXT;
+ALTER TABLE bottom_half ADD species TEXT;
+UPDATE top_half
+SET species = 
+  (CASE
+    WHEN heads > arms OR (SELECT tails FROM bottom_half WHERE id = top_half.id) > (SELECT legs FROM bottom_half WHERE id = top_half.id) THEN "BEAST"
+    ELSE "WEIRDO"
+  END);
+SELECT top_half.id, top_half.heads, top_half.arms,bottom_half.tails, bottom_half.legs,  top_half.species
+FROM bottom_half
+INNER JOIN top_half ON top_half.id==bottom_half.id
+ORDER BY top_half.species
