@@ -1,0 +1,18 @@
+DROP TABLE IF EXISTS monster;
+
+CREATE TABLE IF NOT EXISTS monster(
+  id INT PRIMARY KEY UNIQUE,
+  heads INT NOT NULL,
+  arms INT NOT NULL,
+  tails INT NOT NULL,
+  legs INT NOT NULL,
+  species VARCHAR(255)
+);
+INSERT INTO monster SELECT top_half.id, top_half.heads, top_half.arms,bottom_half.tails, bottom_half.legs, (CASE 
+                                                                                                               WHEN top_half.heads > top_half.arms OR bottom_half.tails>bottom_half.legs THEN 'BEAST'
+                                                                                                               ELSE 'WEIRDO'
+                                                                                                           END)
+FROM bottom_half
+INNER JOIN top_half ON top_half.id=bottom_half.id;
+
+SELECT * FROM monster ORDER BY species;
