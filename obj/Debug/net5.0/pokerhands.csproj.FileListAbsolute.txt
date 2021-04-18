@@ -1,0 +1,16 @@
+C:\Users\natha\Documents\pokerhands\bin\Debug\net5.0\pokerhands.exe
+C:\Users\natha\Documents\pokerhands\bin\Debug\net5.0\pokerhands.deps.json
+C:\Users\natha\Documents\pokerhands\bin\Debug\net5.0\pokerhands.runtimeconfig.json
+C:\Users\natha\Documents\pokerhands\bin\Debug\net5.0\pokerhands.runtimeconfig.dev.json
+C:\Users\natha\Documents\pokerhands\bin\Debug\net5.0\pokerhands.dll
+C:\Users\natha\Documents\pokerhands\bin\Debug\net5.0\ref\pokerhands.dll
+C:\Users\natha\Documents\pokerhands\bin\Debug\net5.0\pokerhands.pdb
+C:\Users\natha\Documents\pokerhands\obj\Debug\net5.0\pokerhands.csprojAssemblyReference.cache
+C:\Users\natha\Documents\pokerhands\obj\Debug\net5.0\pokerhands.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\natha\Documents\pokerhands\obj\Debug\net5.0\pokerhands.AssemblyInfoInputs.cache
+C:\Users\natha\Documents\pokerhands\obj\Debug\net5.0\pokerhands.AssemblyInfo.cs
+C:\Users\natha\Documents\pokerhands\obj\Debug\net5.0\pokerhands.csproj.CoreCompileInputs.cache
+C:\Users\natha\Documents\pokerhands\obj\Debug\net5.0\pokerhands.dll
+C:\Users\natha\Documents\pokerhands\obj\Debug\net5.0\ref\pokerhands.dll
+C:\Users\natha\Documents\pokerhands\obj\Debug\net5.0\pokerhands.pdb
+C:\Users\natha\Documents\pokerhands\obj\Debug\net5.0\pokerhands.genruntimeconfig.cache
